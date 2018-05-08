@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
     s.dependency 'FBSDKCoreKit', '~> 4.29'
     s.ios.dependency 'FBSDKLoginKit', '~> 4.29'
     s.tvos.dependency 'FBSDKTVOSKit', '~> 4.29'
-    s.tvos.dependency 'FBSDKShareKit', '4.28'
+    s.tvos.dependency 'FBSDKShareKit', '~> 4.29'
   end
 
   s.subspec 'TwitterUtils' do |s|
